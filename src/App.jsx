@@ -123,7 +123,7 @@ function App() {
         {/* Messages */}
         <div className="flex-1  overflow-y-auto space-y-3 md:space-y-4 mb-4 scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-transparent">
           {messages.length === 0 && (
-            <div className="flex items-center mt-10 justify-center h-full">
+            <div className="flex items-center justify-center h-full">
               <div className="text-center text-gray-500">
                 <p className="text-4xl md:text-6xl mb-4">💀</p>
                 <p className="text-base md:text-lg">Type something to get roasted...</p>
