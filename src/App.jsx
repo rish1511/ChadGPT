@@ -101,7 +101,7 @@ function App() {
   };
 
   return (
-    <div className="h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex flex-col">
+    <div className="h-[100vh] bg-gradient-to-br from-gray-900 via-gray-800 to-black flex flex-col">
       {/* Header */}
       <div className="bg-gray-800/50 backdrop-blur-lg border-b border-gray-700 px-4 py-4 md:px-6 md:py-5 flex items-center justify-between">
         <div>
@@ -121,9 +121,9 @@ function App() {
       {/* Chat Container */}
       <div className="flex-1 overflow-hidden flex flex-col max-w-5xl w-full mx-auto p-4 md:p-6">
         {/* Messages */}
-        <div className="flex-1 overflow-y-auto space-y-3 md:space-y-4 mb-4 scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-transparent">
+        <div className="flex-1  overflow-y-auto space-y-3 md:space-y-4 mb-4 scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-transparent">
           {messages.length === 0 && (
-            <div className="flex items-center justify-center h-full">
+            <div className="flex items-center mt-10 justify-center h-full">
               <div className="text-center text-gray-500">
                 <p className="text-4xl md:text-6xl mb-4">💀</p>
                 <p className="text-base md:text-lg">Type something to get roasted...</p>
