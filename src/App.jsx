@@ -101,7 +101,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex flex-col">
+    <div className="h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex flex-col">
       {/* Header */}
       <div className="bg-gray-800/50 backdrop-blur-lg border-b border-gray-700 px-4 py-4 md:px-6 md:py-5 flex items-center justify-between">
         <div>
