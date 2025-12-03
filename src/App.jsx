@@ -80,7 +80,7 @@ function App() {
 
     return (
       data?.choices?.[0]?.message?.content ||
-      "Error: ChadGPT bhej raha hai middle finger 💀"
+      "Error: chadgpt ka error hai maaf karna"
     );
   }
 
