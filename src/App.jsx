@@ -71,7 +71,7 @@ function App() {
           },
           { role: "user", content: prompt },
         ],
-        temperature: 0.5,
+        temperature: 0.7,
         max_tokens: 100,
       }),
     });
